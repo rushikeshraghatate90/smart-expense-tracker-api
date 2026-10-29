@@ -11,7 +11,6 @@ sys.path.insert(0, str(PROJECT_ROOT))
 from src.main import app
 import src.storage as storage
 
-
 @pytest.fixture
 def client(tmp_path, monkeypatch):
     """

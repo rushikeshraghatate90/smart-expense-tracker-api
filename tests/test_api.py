@@ -1,6 +1,4 @@
 from uuid import UUID
-
-
 def test_add_expense(client):
     response = client.post(
         "/expenses",
